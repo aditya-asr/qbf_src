@@ -1,5 +1,10 @@
 # QBF Daemon
 
+### Downloading code from anonymous repo
+1. Click on `qbf_src.zip` in the left pane
+2. Click `Download file` in the right corner
+
+
 ### Prerequisites
 
 * Docker
