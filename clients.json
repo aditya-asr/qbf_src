@@ -1,0 +1,8 @@
+{ "clients": 
+	[ { "name": "client1",
+	    "networks":
+		[ { "network_name": "internal_net",
+		    "ip_address": "172.20.0.11" },
+		  { "network_name": "external_net",
+		    "ip_address": "42.42.42.3" } ],
+	    "dns_ip": "172.20.0.2" } ] }

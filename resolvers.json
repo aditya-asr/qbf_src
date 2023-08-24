@@ -1,0 +1,6 @@
+{ "resolvers":
+	[ { "name": "resolver",
+	    "networks": 
+	    	[ { "network_name": "internal_net",
+	    	    "ip_address": "172.20.0.2" } ],
+	    "hints": "root.hints"} ] }

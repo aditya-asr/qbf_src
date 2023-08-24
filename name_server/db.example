@@ -1,0 +1,26 @@
+$TTL	604800
+@		IN		SOA		ns1.example. hostmaster.example. (
+															    6	 ; Serial
+															    604800	 ; Refresh
+															    86400	 ; Retry
+															    2419200	 ; Expire
+															    604800 )	 ; Negative Cache TTL
+; name servers - NS records
+@		IN		NS		ns1.example.
+; name servers - A records
+ns1		IN		A		172.20.0.4
+
+; Burn-in A record
+test.example.		IN		A		42.42.42.42
+
+; Test A records
+test0.example.		IN		A		42.42.42.42
+test1.example.		IN		A		42.42.42.42
+test2.example.		IN		A		42.42.42.42
+test3.example.		IN		A		42.42.42.42
+test4.example.		IN		A		42.42.42.42
+test5.example.		IN		A		42.42.42.42
+test6.example.		IN		A		42.42.42.42
+test7.example.		IN		A		42.42.42.42
+test8.example.		IN		A		42.42.42.42
+test9.example.		IN		A		42.42.42.42

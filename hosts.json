@@ -1,0 +1,5 @@
+{ "hosts":
+	[ { "name": "host1",
+	    "networks": 
+	    [ { "network_name": "external_net",
+		"ip_address": "42.42.42.42" } ] } ] }
