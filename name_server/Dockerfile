@@ -18,7 +18,7 @@ RUN cd liboqs/build && ninja install
 RUN cd oqs-openssl-source && ./Configure no-shared linux-aarch64 --prefix=/oqs-openssl -lm
 RUN cd oqs-openssl-source && make
 RUN cd oqs-openssl-source && make install_sw
-RUN git clone https://github.com/aditya-asr/OQS-bind/bind9
+RUN git clone https://github.com/aditya-asr/OQS-bind /bind9
 ENV LD_LIBRARY_PATH=/usr/local/lib
 RUN cd bind9/ && autoreconf -fi
 RUN cd bind9/ && ./configure CFLAGS="-Wl,--no-as-needed" LIBS="-loqs -ldl" CPPFLAGS="-I/oqs-openssl-source/oqs/include" LDFLAGS="-L/oqs-openssl/lib -L/oqs-openssl-source/oqs/lib" --with-openssl=/oqs-openssl;
