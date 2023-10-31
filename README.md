@@ -1,10 +1,5 @@
 # QBF Daemon
 
-### Downloading code from anonymous repo
-1. Click on `qbf_src.zip` in the left pane
-2. Click `Download file` in the right corner
-
-
 ### Prerequisites
 
 * Docker
@@ -35,6 +30,10 @@ Note: Final DNS responses of `resolver` to `client` can be found in `build/dig_l
 ### Changing Parameters
 
 This can be done by editing `run_scenarios.bash`
+
+### Changing Latency and Bandwidth
+
+This can be done by editing `set_network_conditions.bash`
 
 ### Errors?
 
